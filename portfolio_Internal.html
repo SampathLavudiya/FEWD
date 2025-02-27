@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      * {
+        scroll-behavior: smooth;
+        padding: 0;
+      }
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: black;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+      }
+      .nav-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        gap: 30px;
+      }
+      .nav-menu li a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+      }
+      .nav-brand {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      header {
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="" style="text-decoration: none"
+        ><div class="nav-brand">My portfolio</div></a
+      >
+      <ul class="nav-menu">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects & Experience</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+      <div class="contact">
+        <a href="#contact" style="color: white; text-decoration: none"
+          >Contact</a
+        >
+      </div>
+    </div>
+    <header>
+      <h1>My Portfolio</h1>
+    </header>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Iam Sampath. As a dedicated B-tech Computer science undergraduate , I am
+        passionate about solving real-life problems in the software development
+        field and constantly challenging myself by learning new things.
+      </p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Node.js, Express</li>
+        <li>MongoDB, MySQL</li>
+        <li>Java</li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>Projects & experience</h2>
+      <ul>
+        <li>
+          RETAIL LLM Integrating LLM technology in retail operations tech stack
+          used MERN, LLMS
+        </li>
+        <li>
+          ARDUINO GYROSCOPIC GAME Creating an Interactive MAZE game using MPU
+          6050 Tech stack used IOT And Components project aims to create an
+          interactive Maze Game by sensor integration
+        </li>
+        <li>AI-Powered Judicial Chatbot for Enhanced User Interaction</li>
+      </ul>
+    </section>
+    <section id="achievements">
+      <h2>Feedback & Achievements</h2>
+      <p>Awarded Best Coder at XYZ Hackthon 2023.</p>
+      <p>Received positive feedback from clients on my projects</p>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <p>
+        Bachelor's in Computer Science - KESHAV MEMORIAL INSTITUTE OF TECHNOLOGY
+        (2026)
+      </p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: xyz@gmail.com</p>
+      <p>Phone: +91834332442</p>
+    </section>
+  </body>
+</html>
